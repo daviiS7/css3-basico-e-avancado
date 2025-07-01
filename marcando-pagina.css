@@ -1,0 +1,37 @@
+/***************************
+ * Marcando página atual
+ * **************************/
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+ul a {
+	font-family: arial;
+	font-weight: 700;
+	color: darkblue;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	display: block;
+	width: 200px;
+	height: 40px;
+	background: #f7b600 url(imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover, .selecionado a {
+	color: white;
+	background-position: right bottom;
+	background-color: #f99200;
+	transition: 0.2s;
+}
+
+#home #navga-lateral .home a, #sobre #navga-lateral .sobre a, #servicos #navga-lateral .servicos a,
+#noticias #navga-lateral .noticias a, #contatos #navga-lateral .contato a {
+	color: white;
+	background-position: right bottom;
+	background-color: #f99200;
+}
+
